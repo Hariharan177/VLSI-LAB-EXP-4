@@ -52,23 +52,31 @@ COUNTER
 ![image](https://github.com/navaneethans/VLSI-LAB-EXP-4/assets/6987778/a1fc5f68-aafb-49a1-93d2-779529f525fa)
 
 
-  
-PROCEDURE:
-STEP:1  Start  the Xilinx navigator, Select and Name the New project.
-STEP:2  Select the device family, device, package and speed.       
-STEP:3  Select new source in the New Project and select Verilog Module as the Source type.                       
-STEP:4  Type the File Name and Click Next and then finish button. Type the code and save it.
-STEP:5  Select the Behavioral Simulation in the Source Window and click the check syntax.                       
-STEP:6  Click the simulation to simulate the program and  give the inputs and verify the outputs as per the truth table.               
-STEP:7  Select the Implementation in the Sources Window and select the required file in the Processes Window.
-STEP:8  Select Check Syntax from the Synthesize  XST Process. Double Click in the  FloorplanArea/IO/Logic-Post Synthesis process in the User Constraints process group. UCF(User constraint File) is obtained. 
-STEP:9  In the Design Object List Window, enter the pin location for each pin in the Loc column Select save from the File menu.
-STEP:10 Double click on the Implement Design and double click on the Generate Programming File to create a bitstream of the design.(.v) file is converted into .bit file here.
-STEP:11  On the board, by giving required input, the LEDs starts to glow light, indicating the output.
-
 VERILOG CODE
+```
+JK Flip Flop
+module JK_flipflop (q, q_bar, j,k, clk, reset);  
+  input j,k,clk, reset;
+  output reg q;
+  output q_bar;
+  // always@(posedge clk or negedge reset) // for asynchronous reset
+  always@(posedge clk) begin // for synchronous reset
+    if(!reset)
+           q <= 0;
+    else 
+  begin
+      case({j,k})
+        2'b00: q <= q;    // No change
+        2'b01: q <= 1'b0; // reset
+        2'b10: q <= 1'b1; // set
+        2'b11: q <= ~q; // Toggle
+      endcase
+    end
+  end
+  assign q_bar = ~q;
+endmodule
+```
 
-   <<< TYPE YOUR VERILOG CODE >>>
 
 OUTPUT WAVEFORM
  <<< PASTE YOUR OUTPUT WAVEFORM >>>
