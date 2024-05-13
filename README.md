@@ -50,36 +50,31 @@ COUNTER
 
 ![image](https://github.com/navaneethans/VLSI-LAB-EXP-4/assets/6987778/a1fc5f68-aafb-49a1-93d2-779529f525fa)
 
+EXPERIMENTS :
 
-VERILOG CODE
+#1
+
+D FLIP FLOP :-
+
+Code:
 ```
-JK Flip Flop
-module JK_flipflop (q, q_bar, j,k, clk, reset);  
-  input j,k,clk, reset;
-  output reg q;
-  output q_bar;
-  // always@(posedge clk or negedge reset) // for asynchronous reset
-  always@(posedge clk) begin // for synchronous reset
-    if(!reset)
-           q <= 0;
-    else 
-  begin
-      case({j,k})
-        2'b00: q <= q;    // No change
-        2'b01: q <= 1'b0; // reset
-        2'b10: q <= 1'b1; // set
-        2'b11: q <= ~q; // Toggle
-      endcase
-    end
-  end
-  assign q_bar = ~q;
+module dff(d,clk,rst,q);
+input d,clk,rst;
+output reg q;
+always @(posedge clk)
+begin
+if (rst==1)
+q=1'b0;
+else
+q=d;
+end
 endmodule
 ```
+OUTPUT:-
 
+Simulation :
+![image](https://github.com/Hariharan177/VLSI-LAB-EXP-4/assets/164841000/25a7bfd6-a8ec-4641-a33b-871d7d2c84e1)
 
-OUTPUT WAVEFORM
- <<< PASTE YOUR OUTPUT WAVEFORM >>>
-
-RESULT
-
+Elaborated Design :
+![image](https://github.com/Hariharan177/VLSI-LAB-EXP-4/assets/164841000/57477f37-bb46-48b1-8586-abd01afabe9f)
 
