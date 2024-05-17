@@ -1,4 +1,4 @@
-SIMULATION AND IMPLEMENTATION OF SEQUENTIAL LOGIC CIRCUITS
+**SIMULATION AND IMPLEMENTATION OF SEQUENTIAL LOGIC CIRCUITS**
 
 AIM : To simulate and synthesis SR, JK, T, D - FLIPFLOP, COUNTER DESIGN using Vivado 2023.2.
 
@@ -73,9 +73,11 @@ endmodule
 OUTPUT:-
 
 Simulation :
+
 ![image](https://github.com/Hariharan177/VLSI-LAB-EXP-4/assets/164841000/25a7bfd6-a8ec-4641-a33b-871d7d2c84e1)
 
 Elaborated Design :
+
 ![image](https://github.com/Hariharan177/VLSI-LAB-EXP-4/assets/164841000/57477f37-bb46-48b1-8586-abd01afabe9f)
 
 #2
@@ -106,9 +108,11 @@ endmodule
 OUTPUT:-
 
 Simulation Output:
+
 ![image](https://github.com/Hariharan177/VLSI-LAB-EXP-4/assets/164841000/85c592fe-8829-42e5-8db6-f36749cd1af9)
 
 Elaborated Design:
+
 ![image](https://github.com/Hariharan177/VLSI-LAB-EXP-4/assets/164841000/6292539f-8dad-4576-89d5-a99adbf985ab)
 
 #3
@@ -135,9 +139,11 @@ endmodule
 OUTPUT:-
 
 Simulation :
+
 ![image](https://github.com/Hariharan177/VLSI-LAB-EXP-4/assets/164841000/078b2f9b-20fc-4291-89f6-41411c5a2966)
 
 Elaborated Design :
+
 ![image](https://github.com/Hariharan177/VLSI-LAB-EXP-4/assets/164841000/07f7abcd-8e48-4c1d-a172-19d30bcf74af)
 
 #4
@@ -175,9 +181,11 @@ endmodule
 OUTPUT:-
 
 Simulation:
+
 ![image](https://github.com/Hariharan177/VLSI-LAB-EXP-4/assets/164841000/c7480be3-e7bf-4d46-bd07-56c30f281fb9)
 
 Elaborated Design :
+
 ![image](https://github.com/Hariharan177/VLSI-LAB-EXP-4/assets/164841000/5c7965c8-cfa3-4f75-be35-9bbdc7656f78)
 
 #5
@@ -208,9 +216,11 @@ endmodule
 OUTPUT:-
 
 Simulation :
+
 ![image](https://github.com/Hariharan177/VLSI-LAB-EXP-4/assets/164841000/e25f7008-3727-4af0-9185-7631cf9ceead)
 
 Elaborated Design :
+
 ![image](https://github.com/Hariharan177/VLSI-LAB-EXP-4/assets/164841000/797dfabd-cfae-4f60-a3ac-ceef832777d4)
 
 #6
@@ -236,9 +246,11 @@ endmodule
 OUTPUT:-
 
 Simulation :
+
 ![image](https://github.com/Hariharan177/VLSI-LAB-EXP-4/assets/164841000/32379154-79d1-463f-8c1f-bf879f967a72)
 
 Elaborated Design :
+
 ![image](https://github.com/Hariharan177/VLSI-LAB-EXP-4/assets/164841000/c1678daa-2dfc-4496-924d-6cfd238fc71a)
 
 #7
@@ -264,9 +276,11 @@ endmodule
 OUTPUT:-
 
 Simulation:-
+
 ![image](https://github.com/Hariharan177/VLSI-LAB-EXP-4/assets/164841000/e80a92e6-736e-4a5d-a4df-61af58c6d1df)
 
 Elaborated Design:-
+
 ![image](https://github.com/Hariharan177/VLSI-LAB-EXP-4/assets/164841000/a4672fd9-bdef-49f8-9410-d29c3ed54ec6)
 
 RESULT :
